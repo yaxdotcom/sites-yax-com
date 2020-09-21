@@ -1,6 +1,6 @@
 # sites-yax-com
 
-A gallery of website templates you canbuild with the [yax.com](https://yax.com) project.
+A gallery of websites you can build with the [yax.com](https://yax.com) project.
 
 ## Viewing locally
 
