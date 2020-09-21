@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Yax · Website Templates · Build and Host a Website for Free</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://assets.yax.com/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://assets.yax.com/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://assets.yax.com/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="https://assets.yax.com/images/favicons/site.webmanifest">
+  <meta name="description" content="A curated collection of website templates for Yax.com, the do-it-yourself alternative to Wix and Squarespace.">
+  <meta property="og:title" content="Yax · Website Templates · Build and Host a Website for Free" />
+  <meta property="og:description" content="A curated collection of website templates for Yax.com, the do-it-yourself alternative to Wix and Squarespace." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sites.yax.com/" />
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.css">
+  <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-checkradio@1.1.1/dist/css/bulma-checkradio.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-pageloader@0.3.0/dist/css/bulma-pageloader.min.css">
+  <script type="module" src="https://assets.yax.com/scripts/yax-tags-library.js"></script>
+  <script type="module" src="https://assets.yax.com/scripts/tags/yax-template-gallery.js"></script>
+  <script type="module" src="https://assets.yax.com/scripts/tags/yax-template-modal.js"></script>
+  <script defer src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+  <style>
+    .gallery {
+      height: 532px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header style="min-height: 64px; background: black;">
+    <yax-navbar></yax-navbar>
+  </header>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-6">
+            <h1 class="title is-spaced">Get a FREE website</h1>
+            <p class="subtitle">Choose from our gallery of websites.
+            Click the <button>Select</button>
+            button to save your site and deploy for free hosting.
+            After deploying, you can update the website with on-page editing.</p>
+          </div>
+          <div class="column is-6">
+            <section class="container content mt-6 px-6">
+              <blockquote class="is-size-7 has-text-weight-light">
+                &ldquo;<span class="is-italic">These websites are built with standard web technology,
+                the same used by any skilled web developer. But at</span>
+                <span class="has-text-weight-bold">Yax.com</span><span class="is-italic">,
+                it's bundled so anyone can use it without coding. Check back often as I add more
+                website templates!</span>&rdquo;
+              </blockquote>
+              <div class="columns is-vcentered is-mobile">
+                <div class="column is-narrow ">
+                  <span class="image is-48x48 ml-5"><img class="is-rounded" src="/assets/images/danielkehoe.jpg" alt=""></span>
+                </div>
+                <div class="column">
+                  <p class="has-text-left is-size-7 is-italic has-text-weight-light" style="margin-left:-5%;">&mdash; Daniel Kehoe
+                  <br/>Founder, Yax.com</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2 class="subtitle has-text-weight-bold">Tiny Sites</h2>
+    <div class="gallery">
+      <yax-template-gallery category="tiny_sites"></yax-template-gallery>
+    </div>
+    <h2 class="subtitle has-text-weight-bold mt-6">Designer Showcase</h2>
+    <div class="gallery">
+      <yax-template-gallery category="designer_showcase"></yax-template-gallery>
+    </div>
+  </div>
+
+  <!-- Spinner to appear after form submission -->
+  <div id="spinner" class="pageloader has-background-info"><span class="title">Saving website template to GitHub</span></div>
+
+  <yax-template-modal></yax-template-modal>
+
+  <div class="mb-6"></div>
+
+  <footer>
+    <yax-footer></yax-footer>
+  </footer>
+
+</body>
+
+</html>
